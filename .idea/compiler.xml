@@ -24,7 +24,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Spring Web Flow" />
+        <module name="Module 08" />
+        <module name="Module 09" />
       </profile>
     </annotationProcessing>
   </component>

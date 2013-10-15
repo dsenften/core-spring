@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring Web Flow.iml" filepath="$PROJECT_DIR$/Spring Web Flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-08-webflow/Module 08.iml" filepath="$PROJECT_DIR$/mod-08-webflow/Module 08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-09-security/Module 09.iml" filepath="$PROJECT_DIR$/mod-09-security/Module 09.iml" />
     </modules>
   </component>
 </project>

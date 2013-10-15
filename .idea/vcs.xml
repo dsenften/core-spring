@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mod-08-webflow" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mod-09-security" vcs="svn" />
   </component>
 </project>
 

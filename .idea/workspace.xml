@@ -3,13 +3,31 @@
   <component name="ChangeListManager">
     <list readonly="true" id="1a49304a-57c5-49ec-8488-cf18728ab66e" name="Default" comment="" />
     <list default="true" id="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" name="New changelist" comment="Initial revision.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mod_09.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome-flow.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome2.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index-old.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/webflow.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mod_08.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring Web Flow.iml" afterPath="$PROJECT_DIR$/Core Spring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Spring Web Flow.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381773278728" ignored="false" />
+    <file path="/pom.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381827079734" ignored="false" />
     <file path="/index.jsp" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381770622295" ignored="false" />
-    <file path="/web.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381782513935" ignored="false" />
+    <file path="/web.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381827596031" ignored="false" />
     <file path="/flow.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381773048353" ignored="false" />
     <file path="/welcome.jspx" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381782060160" ignored="false" />
     <file path="/student-flow.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381779443504" ignored="false" />
@@ -17,7 +35,24 @@
     <file path="/spring.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381778660974" ignored="false" />
     <file path="/welcome-flow.xml" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381781286951" ignored="false" />
     <file path="/welcome2.jspx" changelist="1a49304a-57c5-49ec-8488-cf18728ab66e" time="1381782071217" ignored="false" />
-    <file path="/Dummy.txt" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381787476366" ignored="false" />
+    <file path="/Dummy.txt" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381824496345" ignored="false" />
+    <file path="/security-inmemory.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381828234143" ignored="false" />
+    <file path="/security.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381830409618" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringInAction/Spitter/remoting-rmi/src/main/java/com/habuma/spitter/service/rmi/RmiMain.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381839957163" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/java/com/habuma/spitter/service/rmi/RmiMain.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381842545843" ignored="false" />
+    <file path="/RmiMain.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381841338025" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/resources/rmi-client-xml.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381840185241" ignored="false" />
+    <file path="/rmi-client-xml.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381840034269" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/resources/remote-service-context.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381866494541" ignored="false" />
+    <file path="/remote-service-context.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381866374462" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/java/com/habuma/spitter/service/rmi/RmiClient.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381840982326" ignored="false" />
+    <file path="/RmiClient.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381840962760" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/java/com/habuma/spitter/service/rmi/RmiServer.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381867014153" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/resources/client-context.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381866670416" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/resources/server-context.xml" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381866660907" ignored="false" />
+    <file path="$PROJECT_DIR$/../CoreSpring/Spitter/Remoting - RMI/src/main/java/com/habuma/spitter/service/rmi/RmiClientApp.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381867202311" ignored="false" />
+    <file path="/RmiClientApp.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381867078925" ignored="false" />
+    <file path="/RmiServer.java" changelist="c0b5bbd8-f303-4fd0-9ee9-2d5cdfffd5f6" time="1381867007870" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +112,7 @@
     <favorites_list name="Spring Web Flow" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="13" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.6068516">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -114,10 +130,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/flows/student/welcome.jspx" />
         <option value="$PROJECT_DIR$/web/WEB-INF/flow.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/flows/student/welcome2.jspx" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/flows/student/student-flow.xml" />
@@ -127,6 +140,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome2.jspx" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring.xml" />
+        <option value="$PROJECT_DIR$/mod-09-security/pom.xml" />
+        <option value="$PROJECT_DIR$/mod-08-webflow/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mod-09-security/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/mod-09-security/web/WEB-INF/security-inmemory.xml" />
+        <option value="$PROJECT_DIR$/mod-09-security/web/WEB-INF/security.xml" />
       </list>
     </option>
   </component>
@@ -147,7 +166,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1136" />
+    <option name="height" value="1135" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -222,25 +241,45 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="253" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="266" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="255" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="270" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1055" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1055" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="269" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="265" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.side.proportion" value="0.305218" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod-09-security/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/mod-08-webflow/web/WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/flows/welcome" />
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
@@ -380,9 +419,9 @@
     </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/welcome" />
-      <option name="UPDATING_POLICY" value="update-resources" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="webflow">
+        <artifact name="mod-09">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -451,7 +490,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="webflow" />
+          <artifact name="mod-09" />
         </option>
       </method>
     </configuration>
@@ -494,34 +533,38 @@
       <created>1381787495082</created>
       <updated>1381787495082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial revision.">
+      <created>1381787546084</created>
+      <updated>1381787546084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1136" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1135" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20769636" sideWeight="0.4039409" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20769636" sideWeight="0.4039409" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291889" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906404" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2620064" sideWeight="0.7093596" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29064038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -595,118 +638,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome-flow.xml">
+    <entry file="file://$PROJECT_DIR$/mod-09-security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="5" column="31" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome.jspx">
+    <entry file="file://$PROJECT_DIR$/mod-08-webflow/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
+        <state line="5" column="31" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome-flow.xml">
+    <entry file="file://$PROJECT_DIR$/mod-08-webflow/web/WEB-INF/flows/welcome/welcome.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-09-security/web/WEB-INF/flows/welcome/welcome.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="26" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
+        <state line="82" column="21" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+        <state line="31" column="1" selection-start="1119" selection-end="1387" vertical-scroll-proportion="0.22520107">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-09-security/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1141" column="6" selection-start="34384" selection-end="34384" vertical-scroll-proportion="0.84686065" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2547" selection-end="2807" vertical-scroll-proportion="0.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
+        <state line="69" column="0" selection-start="2561" selection-end="2561" vertical-scroll-proportion="-20.11111">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index-old.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="180" selection-end="180" vertical-scroll-proportion="0.2264151" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="756" selection-end="940" vertical-scroll-proportion="0.3375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome-flow.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="516" selection-end="516" vertical-scroll-proportion="0.24640657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.02431611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome2.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="333" selection-end="333" vertical-scroll-proportion="0.20125785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/flows/welcome/welcome.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="332" selection-end="332" vertical-scroll-proportion="0.20125785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-09-security/web/WEB-INF/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.6068516">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-09-security/web/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="827" selection-end="827" vertical-scroll-proportion="0.17991005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="47" selection-end="55" vertical-scroll-proportion="0.10404624">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -715,7 +730,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>webflow</last-edited>
+          <last-edited>mod-09</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
