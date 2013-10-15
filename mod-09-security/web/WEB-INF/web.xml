@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <display-name>Spring Web Flow Example</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/spring.xml WEB-INF/security.xml</param-value>
+    </context-param>
+
+    <!--
+        Bootstrap listener to start up and shut down Spring's root WebApplicationContext. For
+        The context loader is using the definition found in 'contextConfigLocation'.
+    -->
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+
+    <!--
+        Central dispatcher for HTTP request handlers/controllers, e.g. for web UI controllers
+        or HTTP-based remote service exporters. Dispatches to registered handlers for processing
+        a web request, providing convenient mapping and exception handling facilities.
+    -->
+
+    <servlet>
+        <servlet-name>Dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <!--
+            If this initializing parameter is not defined, the servlet is searching a file
+            called 'Dispatcher-servlet.xml', based on the servlet-name given above.
+        -->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/spring.xml</param-value>
+        </init-param>
+
+    </servlet>
+
+
+    <!--
+        The url-pattern specifies the type of urls for which, the servlet given in servlet-name
+        should be called. Be aware that, the container will use case-sensitive for string
+        comparisons for servlet matching.
+    -->
+
+    <servlet-mapping>
+        <servlet-name>Dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+<!--
+     Proxy for a standard Servlet 2.3 Filter, delegating to a Spring-managed
+     bean that implements the Filter interface. Supports a "targetBeanName"
+     filter init-param in {@code web.xml}, specifying the name of the
+     target bean in the Spring application context.
+-->
+
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+</web-app>

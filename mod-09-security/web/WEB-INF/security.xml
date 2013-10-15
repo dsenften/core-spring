@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns="http://www.springframework.org/schema/security"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://www.springframework.org/schema/security 
+        http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+    <!--
+      Automatically registers a login form, BASIC authentication, anonymous authentication,
+      logout services, remember-me and servlet-api-integration.
+    -->
+    <http auto-config="true" use-expressions="true">
+        <intercept-url pattern="/**" access="hasRole('USER')"/>
+    </http>
+
+    <user-service id="userService">
+       <user name="dsenften" password="letmein"    authorities="USER,ADMIN"/>
+       <user name="twoqubed" password="longhorns"  authorities="USER"/>
+       <user name="admin"    password="admin"      authorities="ADMIN"/>
+     </user-service>
+
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider user-service-ref="userService"/>
+    </authentication-manager>
+
+
+
+    <global-method-security secured-annotations="enabled"/>
+
+</beans:beans>
